@@ -15,7 +15,7 @@ Go code!
 
 const express = require("express");
 
-const projectsRouter = require("./data/helpers/projects-router");
+const projectsRouter = require("./routers/projects-router");
 // const actionsRouter = require("./data/helpers/actions-router");
 
 const server = express();
